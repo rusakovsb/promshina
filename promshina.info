@@ -1,0 +1,45 @@
+name = Promshina
+description = Theme for promshina.by
+core = 7.x
+engine = phptemplate 
+
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/views.css
+stylesheets[all][] = css/mobilepanel.css
+stylesheets[all][] = css/responsive.css
+
+scripts[] = js/filters.js
+scripts[] = js/tweenmax.js
+scripts[] = js/mobilepanel.js
+scripts[] = js/main.js
+
+regions[header_left]           = Header Left
+regions[header_right]          = Header Right
+regions[sidebar_first]         = Sidebar
+regions[slider]                = Slider
+regions[main_menu]             = Main Menu
+regions[content_left]          = Content Left
+regions[content_top]           = Content Top
+regions[content]               = Content
+regions[column_right_title]    = Column Right Title
+regions[content_top]           = Content Top
+regions[content_bottom]        = Content Bottom
+regions[footer]                = Footer
+regions[mobile_panel]          = Mobile Panel
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+; Information
+version = "1.0"
+core = "7.x"
+project = "drupal"
+
+

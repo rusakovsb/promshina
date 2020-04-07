@@ -1,0 +1,184 @@
+@media all and (max-width: 991px) {
+
+#block-menu-menu-top-menu,
+.region-header-right,
+#main-menu {
+	display: none;
+}
+
+#header .container {
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.sidebar-first #wrapper .container {
+	-ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.page-komplekt-zapolnenie-poliuretanom #wrapper .container,
+.page-komplekt-cepi #wrapper .container,
+.page-komplekt-kamery-lenty #wrapper .container,
+.node-type-zapolnenie-poliuretanom #wrapper .container,
+.node-type-cep #wrapper .container,
+.node-type-kamera-lenta #wrapper .container {
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+#sidebar,
+.sidebar-first #main {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%; 
+    max-width: none;    
+}
+
+#sidebar {
+    padding: 0;
+}
+
+.page-komplekt-zapolnenie-poliuretanom #sidebar,
+.page-komplekt-cepi #sidebar,
+.page-komplekt-kamery-lenty #sidebar,
+.node-type-zapolnenie-poliuretanom #sidebar,
+.node-type-cep #sidebar,
+.node-type-kamera-lenta #sidebar {
+    padding: 20px 0 0 0;
+}
+
+.logos-item {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%; 
+    max-width: 25%;
+    padding: 0 10px;
+}
+
+.view-advantages .advantages-item {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.phone {
+    display: block;
+    margin: 0 10px 0 0;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+}
+
+@media all and (max-width: 768px) {
+
+#slider {
+	display: none;
+}
+
+.product,
+#content-columns,
+.region-footer,
+.view-obzory .review,
+.region-column-right-title,
+.region-content-top {
+	-ms-flex-direction: column;
+    flex-direction: column;
+}
+
+#content-columns {
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+.product__image,
+#content-column-left,
+#content-column-right,
+.view-advantages .advantages-item,
+.view-obzory .review__image {
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%; 
+    max-width: none;
+}
+
+.product__request {
+    position: relative;
+    right: auto;
+    bottom: auto;
+}
+
+#content-column-left {
+    padding: 20px 0 0 0;
+}
+
+.gallery-item {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%; 
+    max-width: 25%;
+}
+
+.product__image,
+.view-advantages .advantages-item,
+.view-obzory .review__image {
+    padding: 0 0 20px 0;
+}
+
+.view-features-products .view-content, 
+.view-features .view-content {
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.view-features-products .features-item,
+.view-features .features-item {
+    padding: 20px 0;
+}
+
+#block-views-shina-model-block {
+    padding: 0;
+}
+
+#block-views-shina-page-logo-block {
+    padding: 20px 0 0 0;
+}
+
+a.colorbox-inline,
+.product__request a,
+input.form-submit {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+}
