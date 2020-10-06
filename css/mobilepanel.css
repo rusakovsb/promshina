@@ -56,8 +56,10 @@
 }
 
 #menu-close-icon {
-    display: inline-block;
-    position: relative;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
     width: 25px;
     height: 25px;
     -webkit-tap-highlight-color: transparent;
@@ -87,20 +89,15 @@
 #mobile-panel {
     background-color: #345178;
     position: fixed;
-	  z-index: 502;
+	z-index: 502;
     top: 0;
     right: 0;
-	  height: 100%;
-    padding: 30px;
+	height: 100%;
+    padding: 80px 30px 30px 30px;
     overflow-y: auto;
     overflow-x: hidden;
     transform: translate3d(100%, 0, 0); 
     will-change: transform;    
-}
-
-#mobile-panel-header {
-    margin: 0 0 20px 0;
-	  text-align: right;
 }
 
 #mobile-panel .block {
@@ -109,7 +106,7 @@
 
 #mobile-panel .block-title {
     font-size: 20px;
-	  margin: 0 0 10px 0;
+	margin: 0 0 10px 0;
 }
 
 /*-------------------------------------------*

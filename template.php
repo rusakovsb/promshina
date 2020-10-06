@@ -34,7 +34,7 @@ function promshina_preprocess_node(&$variables) {
 /*
  * Implements theme_menu_link().
  */
- function promshina_menu_link(array $variables) {
+function promshina_menu_link(array $variables) {
   $element = $variables['element'];
   $sub_menu = '';
 
